@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="GROW your WEALTH with UPNIVESH. Get Live Stock Price, Stock/Share market news, Sensex, Nifty Live, Commodity Market, IPO news, economy news, personal finance news Today.">
+    <meta name="keywords" content="Live Stock Markets, Commodity Market, Sensex Live, Nifty Live, Live Stock Price, Bombay stock exchange, Indian stock market, bse, finance, fund manager, national stock exchange, Nifty, nse, sensex, share, stock exchange, stock market, trading">
+    <meta name="author" content="Themexriver">
+    <title>UpNivesh</title>
+    <!-- fav icon -->
+    <link href="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1639740363.png" rel="shortcut icon" type="image/png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- style-css -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <!-- responsive-css -->
+    <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
+</head>
+    <body class="stock-exchange">  
+        <header class="header-section">
+            <div class="topnav">
+                <a class="active" href="index.html"><img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1641878324.png" alt="image"/></a>
+                <a href="#">Services
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                </a>
+                <a href="new-to.html">New to Investment</a>
+                <a href="#">FAQs</a>
+                
+                <span class="entry-btns">
+                    <a href="#" id="myBtn" onclick="openFormLogin()">login</a>
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="form-popup-1" id="myFormLogin">
+                            <form action="#" class="form-container">
+                              <h1>Login</h1>
+                          
+                              <label for="email"><b>Email</b></label>
+                              <input type="text" placeholder="Enter Email" name="email" required>
+                          
+                              <label for="psw"><b>Password</b></label>
+                              <input type="password" placeholder="Enter Password" name="psw" required>
+                          
+                              <button type="submit" class="btn">Login</button>
+                              <button type="button" class="btn cancel">Close</button>
+                            </form>
+                          </div>
+                        </div>
+                    
+                    </div>
+                    <a href="#" class="reg">Register</a>
+                </span>
+            </div>
+        </header>
+
+
+        <div class="mobile-container">
+
+            <!-- Top Navigation Menu -->
+            <div class="topnav-mobile">
+              <a href="#home" class="active-1"><img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1641878324.png" alt="image"/></a>
+              <div id="myLinks">
+                <a href="#news">Services</a>
+                <a href="#contact">New to Investment</a>
+                <a href="#about">FAQs</a>
+              </div>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+
+        </div>
+        
+        <div class="home">
+            <div class="grow-tab">
+                <div class="container">
+                    <div class="form"> 
+                        <i class="fa fa-search"></i> 
+                        <input type="text" class="form-control form-input" placeholder="what are you looking for?"> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="main-tab">
+                        <div class="col-lg-6">
+                            <p>GROW your WEALTH with us</p>
+                            <p class="sub-text">Stay simple, Hunt the Market</p>
+                            <button type="started" class="startedButton">Start Your UpNivesh</button>
+                        </div>
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-4">
+                            <div class="sub-tabs">
+                                <span><p>Stocks</p></span>
+                                <span><p>Mutual Funds</p></span>
+                                <span><p>IPOs</p></span>
+                                <span><p>SIPs</p></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="info-chat-btns">
+                        <button type="started" class="chatButton open-button" onclick="openForm()">Chat with us</button>
+                        <div class="form-popup" id="myForm">
+                            <form action=" " class="form-container">
+                                <div id='bodybox'>
+                                    <div id='chatborder'>
+                                      <p id="chatlog7" class="chatlog">&nbsp;</p>
+                                      <p id="chatlog6" class="chatlog">&nbsp;</p>
+                                      <p id="chatlog5" class="chatlog">&nbsp;</p>
+                                      <p id="chatlog4" class="chatlog">&nbsp;</p>
+                                      <p id="chatlog3" class="chatlog">&nbsp;</p>
+                                      <p id="chatlog2" class="chatlog">&nbsp;</p>
+                                      <p id="chatlog1" class="chatlog">&nbsp;</p>
+                                      <input type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." onfocus="placeHolder()">
+                                    </div>
+                                </div>
+                              <button type="submit" class="btn">Send</button>
+                              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="success-tab">
+                <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1641882206.png" alt="image"/>
+            </div>
+
+            <div class="invest-tab">
+                <h3>UpNivesh, your one shot platform for all your Investments</h3>
+                <p>We are here on a mission to help every Indian get the reward of a world-class investment platform and provide futuristic investment advice.Our rapid growth is impelled by an energetic team with vast experience at leading finance and internet compaies of India. </p>
+
+                <p>Our channelized approach and thorough market analysis helps our clients to make profits as well as the  knowledge at the same time. Our robust services and energetic team support make sure our client’s investment journy is hassle free and productive. </p>
+                    
+                <p>We also offer  our clients with knowledge learning modules to smoothen their understanding about the world of productive investments. Our name has been derived from our goal ‘Up’ the ‘Nivesh’, a Hindi derived word, and we mean to rise up the investments of our clients to  a positive bar. With a good client base, we take this honour to help our clients with the best possible way to pile up the happiness in their investment jouney. </p>
+            
+                <p>UpNivesh offers a safe, seamless, reliable way of investments to a wide choice of Investment portfolio. With our joyful clientbase, we are continuing to grow our learning experience and help our trustholders in the most rewarding possible manner. You can get started with us in a seamless manner by connecting to our support team. </p>
+            </div>
+
+            
+            <div class="market-tab">
+                <div class="reward-tab">
+                    <p>Open the Rewarding gates of Investing </p>
+                </div>
+    
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="market-brief">
+                            <div class="container">
+                                <div class="form"> 
+                                    <i class="fa fa-search"></i> 
+                                    <input type="text" class="form-control form-input" placeholder="search stocks, indices and more"> 
+                                </div>
+                            </div>
+                            <h4>INDEX</h4>
+                            <p class="view-more">view more</p>
+                            <div class="stock-cards">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="stock-card-ind">
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <div class="stock-name">
+                                                        <h5>NIFTY</h5>
+                                                        <p>NSE</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="current-value">
+                                                        <h5 id="demo"> </h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="stock-value negative">
+                                                        <p class="change">-179.35</p>
+                                                        <p>(1.00%)</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="stock-card-ind">
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <div class="stock-name">
+                                                        <h5>SENSEX</h5>
+                                                        <p>BSE</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="current-value">
+                                                        <h5 id="demo">59,601.84</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="stock-value positive">
+                                                        <p class="change">+257.31</p>
+                                                        <p>(1.03%)</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="stock-card-ind">
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <div class="stock-name">
+                                                        <h5>SENSEX</h5>
+                                                        <p>BSE</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="current-value">
+                                                        <h5 id="demo">59,601.84</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="stock-value positive">
+                                                        <p class="change">+257.31</p>
+                                                        <p>(1.03%)</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+
+                            <h4>STOCKS IN NEWS</h4>
+                            <p class="view-more">view more</p>
+                            <div class="stock-news">
+                                <div class="stock-card-news">
+                                    <div class="add-to-icon">
+                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="news-head">
+                                        <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1642403705.png" alt="image"/>
+                                        <p>Tata Motors</p>
+                                    </div>
+                                    <div class="news-tail">
+                                        <p class="rate"> &#x20b9; 157.41</p>
+                                        <p class="positive">+5.08 (1.97%)</p>
+                                    </div>
+                                </div>
+                                <div class="stock-card-news">
+                                    <div class="add-to-icon">
+                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="news-head">
+                                        <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1642405495.png" alt="image"/>
+                                        <p>Asianpaints</p>
+                                    </div>
+                                    <div class="news-tail">
+                                        <p class="rate"> &#x20b9; 157.41</p>
+                                        <p class="negative">-16.45 (2.55%)</p>
+                                    </div>
+                                </div>
+                                <div class="stock-card-news">
+                                    <div class="add-to-icon">
+                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="news-head">
+                                        <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1642405905.png" alt="image"/>
+                                        <p>Hero MotoCorp</p>
+                                    </div>
+                                    <div class="news-tail">
+                                        <p class="rate"> &#x20b9; 2503.60</p>
+                                        <p class="positive">+5.08 (1.97%)</p>
+                                    </div>
+                                </div>
+                                <div class="stock-card-news">
+                                    <div class="add-to-icon">
+                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="news-head">
+                                        <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1642405992.png" alt="image"/>
+                                        <p>Mahindra </p>
+                                    </div>
+                                    <div class="news-tail">
+                                        <p class="rate"> &#x20b9; 835.15</p>
+                                        <p class="positive">+5.08 (1.97%)</p>
+                                    </div>
+                                </div>
+                                <div class="stock-card-news">
+                                    <div class="add-to-icon">
+                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="news-head">
+                                        <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1642406040.png" alt="image"/>
+                                        <p>Happiest Minds</p>
+                                    </div>
+                                    <div class="news-tail">
+                                        <p class="rate"> &#x20b9; 1311.10</p>
+                                        <p class="positive">+5.08 (1.97%)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <button type="started" class="startedButton">Get Started for more customized experience</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="market-det">
+                            <h4>NewsFeed</h4>
+                            <div class="market-sub-tab">
+                                <h5>Top News</h5>
+                                <ul>
+                                    <li>Lorem ipsum dolor sit amet, ectetur adipiscing elit.</li>
+                                    <li>Lorem ipsum dolor sit amet, ectetur adipiscing elit.</li>
+                                </ul>  
+                            </div>
+                            <div class="market-sub-tab">
+                                <h5>Latest</h5>
+                                <ul>
+                                    <li>Lorem ipsum dolor sit amet, ectetur adipiscing elit.</li>
+                                    <li>Lorem ipsum dolor sit amet, ectetur adipiscing elit.</li>
+                                </ul>  
+                            </div>
+                            <div class="market-sub-tab">
+                                <h5>Must Read</h5>
+                                <ul>
+                                    <li>Lorem ipsum dolor sit amet, ectetur adipiscing elit.</li>
+                                    <li>Lorem ipsum dolor sit amet, ectetur adipiscing elit.</li>
+                                </ul>  
+                            </div>
+                            <div class="expand-more-tab">
+                                <div class="expand-more-btn">
+                                    <a href="http://localhost:3000/"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="commit-tab">
+                <div class="row">
+                    <div class="col-lg-3">
+    
+                    </div>
+                    <div class="col-lg-3">
+                        <h4>Your Money,<br>
+                            Your PROFIT</h4>
+                    </div>
+                    <div class="col-lg-3">
+                        <h2>OUR COMMITTMENT</h2>
+                    </div>
+                    <div class="col-lg-3">
+    
+                    </div>
+                </div>
+                <p>Get in touch with us to explore the immense opportunities of RIGHT INVESTMENTs, and leverage  yourselves with Wealth.</p>
+                <div class="row">
+                    <div class="col-lg-4">
+
+                    </div>
+                    <div class="col-lg-2">
+                        <button type="call" class="infoButton info-a"><i class="fa fa-phone" aria-hidden="true"></i>Get Details on CALL</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <button type="chat" class="infoButton info-b"><i class="fa fa-file-text-o" aria-hidden="true"></i>CHAT with us</button>
+                    </div>
+                    <div class="col-lg-4">
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+
+           <!--  <div class="faq-tab">
+                <div class="row">
+                    <div class="faq-outer-tab">
+                        <div class="faq-ind">
+                            <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1640082752.png" alt="image"/>
+                            <h5>Mr. Ankit Desai</h5>
+                            <p class="sub-head"> Profession</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis arcu sed nunc montes, nisl, consectetur pharetra. A, felis tristique urna aliquam mauris eu diam. Senectus mauris, ipsum dignissim egestas. Blandit eget maecenas risus iaculis. Velit cursus fames volutpat ut.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-outer-tab">
+                        <div class="faq-ind">
+                            <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1640082752.png" alt="image"/>
+                            <h5>Mr. Ankit Desai</h5>
+                            <p class="sub-head"> Profession</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis arcu sed nunc montes, nisl, consectetur pharetra. A, felis tristique urna aliquam mauris eu diam. Senectus mauris, ipsum dignissim egestas. Blandit eget maecenas risus iaculis. Velit cursus fames volutpat ut.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-outer-tab">
+                        <div class="faq-ind">
+                            <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1640082752.png" alt="image"/>
+                            <h5>Mr. Ankit Desai</h5>
+                            <p class="sub-head"> Profession</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis arcu sed nunc montes, nisl, consectetur pharetra. A, felis tristique urna aliquam mauris eu diam. Senectus mauris, ipsum dignissim egestas. Blandit eget maecenas risus iaculis. Velit cursus fames volutpat ut.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>  -->
+
+
+            <div class="faq-tab">
+                <div class="reward-tab">
+                    <p class="reward-sub">Hear, what others are doing with UpNivesh</p>
+                </div>
+                <div class="container-in">
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="faq-outer-tab">
+                                    <div class="faq-ind">
+                                        <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1641899975.png" alt="image"/>
+                                        <h5>Mr. Ankit Desai</h5>
+                                        <p class="sub-head">Software Engineer(Ramgarh, JH)</p>
+                                        <p>"UpNivesh helped me with my first demat account and it has been absolute pleasure to trade with UpNivesh.Their services has results which shows their proper knowledge and research they do.. One need not have to be expert in stock market, just follow the fundamental calls, you will be able to make good profits."</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="faq-outer-tab">
+                                    <div class="faq-ind">
+                                        <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1641900229.png" alt="image"/>
+                                        <h5>Mrs. Julika Pandey</h5>
+                                        <p class="sub-head">HomeMaker(Hazaribagh, JH)</p>
+                                        <p>“My investment experience with UpNivesh has been nothing short of amazing, from guiding me in the intial days to streamlining the portfolio at present. Special mention for the consultant team who have responded to all my queries with utmost gentleness and respect. Keep it going”</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="faq-outer-tab">
+                                    <div class="faq-ind">
+                                        <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1641900576.png" alt="image"/>
+                                        <h5>Mr. Keshav Rao Atulkar</h5>
+                                        <p class="sub-head">Businessman(Ranchi, JH)</p>
+                                        <p>“We started our association with UpNivesh quite a few years back after checking the reputation of various advisory/investment platforms. It's been a very nice association and we are very satisfied with the service provided. I would strongly recommend UpNivesh to anyone looking to start Investment.”</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            
+
+            <div class="faq-tab-auto">
+                <div class="reward-tab">
+                    <span><p>FAQs</p></span>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-3">
+                        <div class="faq">
+                            <button data-toggle="collapse" class="faq-basic" data-target="#faq-data">
+                                <p>Who is a broker?</p>
+                                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                            </button>
+                            <div id="faq-data" class="collapse faq-text">
+                                In stock market jargon, a broker is an individual or a firm that executes ‘buy’ and ‘sell’ orders for an investor for a fee or commission. 
+                            </div>
+                        </div>
+                        
+                        <div class="faq">
+                            <button data-toggle="collapse" class="faq-basic" data-target="#faq-data-1">
+                                <p>How do beginners buy stocks?</p>
+                                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                            </button>
+                            <div id="faq-data-1" class="collapse faq-text">
+                                Here are five steps to help you buy your first stock:<br>
+                                   1. Select an online stockbroker. The easiest way to buy stocks is through an online stockbroker. ... <br>
+                                   2. Research the stocks you want to buy. ...<br>
+                                   3. Decide how many shares to buy. ...<br>
+                                   4. Choose your stock order type. ...<br>
+                                   5. Optimize your stock portfolio.
+                            </div>
+                        </div>
+
+                        <div class="faq">
+                            <button data-toggle="collapse" class="faq-basic" data-target="#faq-data-2">
+                                <p>How can I learn stock market?</p>
+                                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                            </button>
+                            <div id="faq-data-2" class="collapse faq-text">
+                                Take a look at the many ways by which you can learn share market:<br>
+                                   1. Read books.<br>
+                                   2. Follow a mentor.<br>
+                                   3. Take online courses.<br>
+                                   4. Get expert advice.<br>
+                                   5. Analyse the market.<br>
+                                   6. Open a demat and trading account.
+                            </div>
+                        </div>
+
+                        <div class="faq">
+                            <button data-toggle="collapse" class="faq-basic" data-target="#faq-data-3">
+                                <p>Are Trading Apps Safe?</p>
+                                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                            </button>
+                            <div id="faq-data-3" class="collapse faq-text">
+                                Trading apps are designed keeping in mind the security and safety of your trading activity. There are encrypted firewalls in place to secure your transactions and fund details from fraud.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="faq">
+                            <button data-toggle="collapse" class="faq-basic" data-target="#faq-data-4">
+                                <p>What is FAQ in stock market?</p>
+                                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                            </button>
+                            <div id="faq-data-4" class="collapse faq-text">
+                                Stock Market Basics FAQ's. Stock Market Basics Frequently Asked Question(s) provide answers to commonly asked questions about Stock Market Basics in Indian Stock Market. This Stock Market Basics FAQ list is to help investors for their better understanding of Stock Market Basics and to resolve their quires.
+                            </div>
+                        </div>
+
+                        <div class="faq">
+                            <button data-toggle="collapse" class="faq-basic" data-target="#faq-data-5">
+                                <p>Gaining money from Stocks?</p>
+                                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                            </button>
+                            <div id="faq-data-5" class="collapse faq-text">
+                                Shares can pay dividends too<br>
+                                    There are two ways you make money from investing. One is when the shares increase in value (and you profit when you sell), the other is when they pay dividends. These are a bit like interest on a savings account.
+                            </div>
+                        </div>
+
+                        <div class="faq">
+                            <button data-toggle="collapse" class="faq-basic" data-target="#faq-data-6">
+                                <p>What's better??Savings or Stocks??</p>
+                                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                            </button>
+                            <div id="faq-data-6" class="collapse faq-text">
+                                Investing gives your money the potential to grow faster than it could in a savings account. If you have a long time until you need to meet your goal, your returns will compound. Basically, this means in addition to a higher rate of return on investments, your investment earnings will also earn money over time.
+                            </div>
+                        </div>
+
+                        <div class="faq">
+                            <button data-toggle="collapse" class="faq-basic" data-target="#faq-data-7">
+                                <p>Can stocks make you rich?</p>
+                                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                            </button>
+                            <div id="faq-data-7" class="collapse faq-text">
+                                Investing in the stock market is one of the smartest and most effective ways to build wealth over a lifetime. With the right strategy, it's possible to become a stock market millionaire or even a multimillionaire -- and you don't need to be rich to get started. ... But investing is less risky than you may think. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3"></div>
+                </div>
+                <button type="started" class="startedButton">view more</button>
+            </div>
+
+            <footer class="footer-tab">
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-4">
+                        <div class="logo-section">
+                            <h4>UpNivesh</h4>
+                            <p>Lorem ipsum dolor sit amet,<br>
+                                consectetur adipiscing elit<br>
+                                Phasellus id platea gravida<br>
+                                fermentum scelerisque.</p>
+                            <div class="social-section">
+                                <h4>Social Links</h4>
+                                <div class="row">
+                                    <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1639811294.png" alt="image"/>
+                                    <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1639811324.png" alt="image"/>
+                                    <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1639811372.png" alt="image"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="about-section">
+                            <h4>About Us</h4>
+                            <p>Company</p>
+                            <p>Market Talks</p>
+                            <p>Help & Support</p>
+                            <p>Refer & Earn</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="quick-link-section">
+                            <h4>Quick Links</h4>
+                            <p>Sitemaps</p>
+                            <p>Stocks</p>
+                            <p>Mutual Funds</p>
+                            <p>Funds</p>
+                            <p>SIP</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script>
+            //links
+            //http://eloquentjavascript.net/09_regexp.html
+            //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+
+
+            var messages = [], //array that hold the record of each string in chat
+            lastUserMessage = "", //keeps track of the most recent input string from the user
+            botMessage = "", //var keeps track of what the chatbot is going to say
+            botName = 'Chatbot', //name of the chatbot
+            talking = true; //when false the speach function doesn't work
+            //
+            //
+            //****************************************************************
+            //****************************************************************
+            //****************************************************************
+            //****************************************************************
+            //****************************************************************
+            //****************************************************************
+            //****************************************************************
+            //edit this function to change what the chatbot says
+            function chatbotResponse() {
+            talking = true;
+            botMessage = "I'm confused"; //the default message
+
+            if (lastUserMessage === 'hi' || lastUserMessage =='hello') {
+                const hi = ['hi','howdy','hello']
+                botMessage = hi[Math.floor(Math.random()*(hi.length))];;
+            }
+
+            if (lastUserMessage === 'name') {
+                botMessage = 'My name is ' + botName;
+            }
+            if (lastUserMessage === 'how' || lastUserMessage == 'how are you') {
+                botMessage = 'I am fine.. What about you?';
+            }
+            if (lastUserMessage === 'thanks' || lastUserMessage == 'sorry') {
+                botMessage = 'mention Not :)';
+            }
+            if (lastUserMessage === 'good morning' || lastUserMessage == 'good day') {
+                botMessage = 'You too';
+            }
+            if (lastUserMessage === 'bye' || lastUserMessage == 'tata') {
+                botMessage = 'Ok Bye.. See you soon...';
+            }
+            if (lastUserMessage === 'a bot' || lastUserMessage == 'doubt') {
+                botMessage = 'Bro...';
+            }
+            }
+            //****************************************************************
+            //****************************************************************
+            //****************************************************************
+            //****************************************************************
+            //****************************************************************
+            //****************************************************************
+            //****************************************************************
+            //
+            //
+            //
+            //this runs each time enter is pressed.
+            //It controls the overall input and output
+            function newEntry() {
+            //if the message from the user isn't empty then run 
+            if (document.getElementById("chatbox").value != "") {
+                //pulls the value from the chatbox ands sets it to lastUserMessage
+                lastUserMessage = document.getElementById("chatbox").value;
+                //sets the chat box to be clear
+                document.getElementById("chatbox").value = "";
+                //adds the value of the chatbox to the array messages
+                messages.push(lastUserMessage);
+                //Speech(lastUserMessage);  //says what the user typed outloud
+                //sets the variable botMessage in response to lastUserMessage
+                chatbotResponse();
+                //add the chatbot's name and message to the array messages
+                messages.push("<b>" + botName + ":</b> " + botMessage);
+                // says the message using the text to speech function written below
+                Speech(botMessage);
+                //outputs the last few array elements of messages to html
+                for (var i = 1; i < 8; i++) {
+                if (messages[messages.length - i])
+                    document.getElementById("chatlog" + i).innerHTML = messages[messages.length - i];
+                }
+            }
+            }
+
+            //text to Speech
+            //https://developers.google.com/web/updates/2014/01/Web-apps-that-talk-Introduction-to-the-Speech-Synthesis-API
+            function Speech(say) {
+            if ('speechSynthesis' in window && talking) {
+                var utterance = new SpeechSynthesisUtterance(say);
+                //msg.voice = voices[10]; // Note: some voices don't support altering params
+                //msg.voiceURI = 'native';
+                //utterance.volume = 1; // 0 to 1
+                //utterance.rate = 0.1; // 0.1 to 10
+                //utterance.pitch = 1; //0 to 2
+                //utterance.text = 'Hello World';
+                //utterance.lang = 'en-US';
+                speechSynthesis.speak(utterance);
+            }
+            }
+
+            //runs the keypress() function when a key is pressed
+            document.onkeypress = keyPress;
+            //if the key pressed is 'enter' runs the function newEntry()
+            function keyPress(e) {
+            var x = e || window.event;
+            var key = (x.keyCode || x.which);
+            if (key == 13 || key == 3) {
+                //runs this function when enter is pressed
+                newEntry();
+            }
+            if (key == 38) {
+                console.log('hi')
+                //document.getElementById("chatbox").value = lastUserMessage;
+            }
+            }
+
+            //clears the placeholder text ion the chatbox
+            //this function is set to run when the users brings focus to the chatbox, by clicking on it
+            function placeHolder() {
+            document.getElementById("chatbox").placeholder = "";
+            }
+        </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <script>
+            function openForm() {
+              document.getElementById("myForm").style.display = "block";
+            }
+            
+            function closeForm() {
+              document.getElementById("myForm").style.display = "none";
+            }
+
+            function openFormLogin() {
+              document.getElementById("myFormLogin").style.display = "block";
+            }
+
+            function closeFormLogin() {
+              document.getElementById("myFormLogin").style.display = "none";
+            }
+        </script>
+
+        <script>
+            var xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                    var myObj = JSON.parse(this.responseText);
+                    document.getElementById("demo").innerHTML = myObj.high;
+                }
+            };
+            xmlhttp.open("GET", "https://www.bitstamp.net/api/ticker/?u" + new Date().getTime(), true);
+            xmlhttp.send();
+        </script>
+
+        <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+            
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks the button, open the modal 
+            btn.onclick = function() {
+              modal.style.display = "block";
+            }
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+        </script>
+            
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("myLinks");
+                  if (x.style.display === "block") {
+                    x.style.display = "none";
+                  } else {
+                    x.style.display = "block";
+                  }
+                }
+            </script>
+
+            <script type="text/javascript">
+                $(window).load(function() {
+                    $(".carousel .item").each(function() {
+                        var i = $(this).next();
+                        i.length || (i = $(this).siblings(":first")),
+                        i.children(":first-child").clone().appendTo($(this));
+                        
+                        for (var n = 0; n < 4; n++)(i = i.next()).length ||
+                        (i = $(this).siblings(":first")),
+                        i.children(":first-child").clone().appendTo($(this))
+                    })
+                });
+            </script>
+                
+            <script>
+                var url = 'https://newsapi.org/v2/everything?' +
+                            'q=Apple&' +
+                            'from=2022-01-11&' +
+                            'sortBy=popularity&' +
+                            'apiKey=2f0f205a93ae4f1d99af4b1adf81f39f';
+
+                var req = new Request(url);
+
+                fetch(req)
+                    .then(function(response) {
+                        console.log(response.json());
+                    })
+
+            </script>
+    </body>
+</html>
